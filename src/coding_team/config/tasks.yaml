@@ -1,0 +1,28 @@
+manager_task:
+  description: >
+    Ensure the successful completion of the software project of {topic} by effectively managing the AI agent team, optimizing resources, and mitigating risks.
+  expected_output: >
+    A list with 10 bullet points of the most relevant information about {topic}
+  agent: manager
+
+junior_developer_task:
+  description: >
+    Contribute to the development of the software project of {topic} by writing clean, efficient, and maintainable code.
+  expected_output: >
+    A set of well-commented code snippets or functions related to {topic}, demonstrating clean and efficient programming practices.
+  agent: junior_developer
+
+senior_developer_task:
+  description: >
+    Lead the development of the software project of {topic} by mentoring junior developers, optimizing code quality, and ensuring timely delivery of high-quality software.
+  expected_output: >
+    A code review report highlighting improvements, optimizations, and mentoring points for the junior developer's code, along with high-level architectural decisions for {topic}.
+  agent: senior_developer
+
+document_manager_task:
+  description: >
+    Manage the documentation of the software project of {topic} by ensuring all documentation is up-to-date, accurate, and easily accessible to all team members.
+  expected_output: >
+    Comprehensive code comments and project documentation, including sections like getting started, project structure, API documentation, and dependencies.
+  agent: document_manager
+
